@@ -1,0 +1,1 @@
+export default class{constructor(t){this.params=t}setTitle(t){document.title=t}async getHtml(){return""}}

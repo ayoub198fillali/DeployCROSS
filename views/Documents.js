@@ -1,0 +1,1 @@
+debugCharge&&console.log("(View)Documents!");import AbstractView from"./AbstractView.js";let Code="";export default class extends AbstractView{constructor(e){super(e),this.setTitle("Documents")}async getHtml(){return Code}}

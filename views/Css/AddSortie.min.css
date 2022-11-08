@@ -1,0 +1,1 @@
+.status{position:relative}.status.on::before{background-color:red}.status::before{content:"";position:absolute;width:15px!important;height:15px!important;border-radius:50%;top:50%;-webkit-transform:translate3d(-50%,-50%,0);transform:translate3d(-50%,-50%,0);background-color:#00a000}@media (max-width:1020px){.status::before{margin-left:20px!important}}

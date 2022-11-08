@@ -1,0 +1,9 @@
+# Prevent Directory Listing
+Options -Indexes
+# Echo Error Message
+ErrorDocument 403 "You don't have permission to access this resource."
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?path=$1 [NC,L,QSA]
